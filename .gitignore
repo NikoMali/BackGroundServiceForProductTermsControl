@@ -338,3 +338,4 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 BackGroundServiceForProductTermsControl/appsettings.PreProduction.json
+BackGroundServiceForProductTermsControl/appsettings.PreProduction.json
