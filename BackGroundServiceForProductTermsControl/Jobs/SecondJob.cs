@@ -16,7 +16,7 @@ namespace BackGroundServiceForProductTermsControl.Jobs
         }
         public Task Execute(IJobExecutionContext context)
         {
-            _logger.LogInformation("SecondJob");
+            _logger.LogWarning("SecondJob");
             return Task.CompletedTask;
         }
     }

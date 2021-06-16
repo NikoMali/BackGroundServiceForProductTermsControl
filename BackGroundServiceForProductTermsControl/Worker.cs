@@ -40,7 +40,7 @@ namespace BackGroundServiceForProductTermsControl
                     var result = await httpClient.GetAsync("http://161.97.167.22/swagger/index.html");
                     if (result.IsSuccessStatusCode)
                     {
-                        _logger.LogInformation("The Website is Up.Status Code {StatusCode} =" + result.StatusCode);
+                        _logger.LogWarning("The Website is Up.Status Code {StatusCode} =" + result.StatusCode);
                     }
                     else
                     {

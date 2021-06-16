@@ -46,8 +46,6 @@ namespace BackGroundServiceForProductTermsControl
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                }).ConfigureServices(services =>
-                   services.AddHostedService<Worker>())
-                            .UseSerilog();
+                }).UseSerilog();
     }
 }
